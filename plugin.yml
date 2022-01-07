@@ -1,0 +1,10 @@
+name: Test
+version: 1.0
+main: me.SMPCOMMANDS.test
+author: Cool
+description: A test plugin!
+ 
+commands:
+     test:
+         usage: /<command>
+         description: A test command!
