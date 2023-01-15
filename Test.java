@@ -19,7 +19,7 @@ public class Test extends JavaPlugin {
     
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
         
-        if (!(sender instanceof Player)) {
+        if (sender instanceof Player)) {
             sender.sendMessage(ChatColor.AQUA + "The console ran the command! Good job!");
             return true;
         }
